@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Watch-Shop-MagicOn/",
+    "build": "vite build --base=/Watch-Shop/",
     "preview": "vite preview"
   },
   "devDependencies": {
