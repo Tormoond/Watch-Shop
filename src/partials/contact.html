@@ -1,0 +1,102 @@
+<!-- Section Contact Us -->
+<section class="section" id="contact">
+  <div class="contact-us-container container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-us-content">
+      <div class="contact-us-block">
+        <p class="contact-us-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <!-- Contact Us Form -->
+        <form class="contact-us-form">
+          <div class="form-item">
+            <label class="form-label">
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                title="Name should contain only letters and apostrophes"
+                required
+              />
+            </label>
+          </div>
+          <div class="form-item">
+            <label class="form-label">
+              <input
+                class="form-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+                placeholder="Email"
+                pattern="[A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8}"
+                title="Please enter a valid email address"
+                required
+              />
+            </label>
+          </div>
+          <div class="form-item">
+            <label class="form-label">
+              <input
+                class="form-input"
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                title="+380-XX-XXX-XX-XX"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                placeholder="+380"
+                required
+              />
+            </label>
+          </div>
+          <div class="form-item">
+            <label class="form-label">
+              <textarea
+                class="textarea"
+                name="feedback"
+                rows="2"
+                placeholder="Comment"
+              ></textarea>
+            </label>
+          </div>
+          <!-- Contact Us Button -->
+          <button class="button contact-us-button" type="submit">Send</button>
+        </form>
+      </div>
+      <!-- Contact Us Watch Picture -->
+      <div class="overlay-container">
+        <picture>
+          <source
+            srcset="
+              ./img/contact-us/watch-desktop.jpg,
+              ./img/contact-us/watch-desktop@2x.jpg 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="
+              ./img/contact-us/watch-tablet.jpg,
+              ./img/contact-us/watch-tablet@2x.jpg 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              ./img/contact-us/watch-mobile.jpg,
+              ./img/contact-us/watch-mobile@2x.jpg 2x
+            "
+            media="(max-width:767px)"
+          />
+          <img
+            class="contact-us-img"
+            src="/img/contact-us/watch-desktop.jpg"
+            alt="clock"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
