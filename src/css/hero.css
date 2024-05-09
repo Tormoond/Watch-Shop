@@ -199,4 +199,20 @@
   .hero-img-wrapper {
     max-width: 1150px;
   }
+  /* animations */
+  .hero-title {
+    animation: 4s zoomInDown;
+  }
+  .hero-text {
+    animation: 4s zoomInUp;
+  }
+  .hero-scroll {
+    animation: 5s fadeInTopRight;
+  }
+  .hero-photos-list {
+    animation: 5s fadeInRight;
+  }
+  .hero-img-wrapper {
+    animation: 4s fadeInUpBig;
+  }
 }

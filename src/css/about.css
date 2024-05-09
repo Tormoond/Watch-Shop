@@ -119,4 +119,11 @@
   .about-info-wrapper {
     width: 580px;
   }
+  /* animations */
+  .about-info-wrapper {
+    animation: 10s fadeInBottomLeft;
+  }
+  .about-image-wrapper {
+    animation: 10s fadeInBottomRight;
+  }
 }
